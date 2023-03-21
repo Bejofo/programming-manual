@@ -29,3 +29,4 @@ Hello world example in PHP.
 - The most popular testing framework regularly used is PHPUnit.
 - The most common template engine used is Blade.
 
+Stats from https://www.jetbrains.com/lp/devecosystem-2021/php/.
