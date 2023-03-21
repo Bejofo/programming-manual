@@ -6,6 +6,9 @@ Located [here](https://apickledwalrus.github.io/programming-manual/)
 # Instructions
 
 # FAQ
+### What is this programming manual?
+
+### How do I access different pages?
 
 # Inclusion
 Equity, diversity, and inclusion are key to our project. Regardless of identity and background, we aim to keep our project open and accessible to all potential contributors to this language database. We actively strive to combat discrimination. A wide range of perspectives helps the project grow and evolve as well as encourage intellectual discourse on computing languages. 
