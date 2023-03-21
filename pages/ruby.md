@@ -28,3 +28,4 @@ puts “Hello, World!”
 - The most used version of Rails(RoR) is Rails 6.0.
 - The most common type of software developed with Ruby are websites.
 
+Stats from https://www.jetbrains.com/lp/devecosystem-2020/ruby/.
