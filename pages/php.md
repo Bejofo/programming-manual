@@ -2,7 +2,7 @@
 
 Originally abbreviated for Personal Home Page, now standing for PHP: Hypertext Preprocessor, PHP officially released on June 8, 1995. PHP was designed by Rasmus Lerdorf with its developers consisting of The PHP Development Team, Zend Technologies, and PHP Foundation. Embedded within HTML, the language is an open-source server side scripting language. The language itself was not designed at first to be a language but had developed and grown to be one.
 
-<img style="float: right; width:30%; height:50%; object-fit:contain;" src="![image](https://user-images.githubusercontent.com/112724206/226735242-d36933f3-9572-4fa6-893c-c636bb130d47.png)">
+<img style="float: right; width:30%; height:50%; object-fit:contain;" src="![image]https://user-images.githubusercontent.com/112724206/226735242-d36933f3-9572-4fa6-893c-c636bb130d47.png">
 
 # Nerd stuff
 Designing web applications demands several features to create an effective product. PHP utilizes a three-layer structure that works linearly on browser, server, and database systems. The three-layer system allows users to manage such features like customization, interactive UI, online transactions, and database integration. Some mechanisms are also built in for user authentication integration, SQL query builder, routing, and CSRF protection. PHP works to construct both static as well as dynamic pages/applications. 
