@@ -14,7 +14,7 @@ Since PHP lacks strict restrictions for its code, syntax for PHP can get unpredi
 Due to the open-source nature of the language code vulnerabilities can be easily discovered and shared. Security problems can be exploited from side attacks like SQL injections before issues can get patched up. PHP can also be vulnerable to cross-site scripting, cross-site request forgery, session hijacking, and authentication bypass.
 
 # Ecosystem
-Packagist is PHP’s main package repository as well as a package manager along with Composer. PHP is also integrated with several popular databases such as PostgreSQL, Oracle, Sybase, Informix, MySQL, MS Access and Microsoft SQL Server. There are many PHP libraries out available but the Standard PHP Library(SPL) is one that offers interfaces and classes for common problems. SPL can be found at www.php.net/manual/en/book.spl.php. The language can also integrate with many image processing libraries like ImageMagick, Imagine, and GD Library. 
+Packagist is PHP’s main package repository as well as a package manager along with Composer. PHP is also integrated with several popular databases such as PostgreSQL, Oracle, Sybase, Informix, MySQL, MS Access and Microsoft SQL Server. There are many PHP libraries out available but the Standard PHP Library(SPL) is one that offers interfaces and classes for common problems. SPL can be found at [SPL Link](www.php.net/manual/en/book.spl.php). The language can also integrate with many image processing libraries like ImageMagick, Imagine, and GD Library. 
 
 
 # Examples
