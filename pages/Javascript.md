@@ -34,7 +34,7 @@ In your index.html,
 <html>
 ```
 
-# Stats?
+# Stats
 The latest survey in 2022 states that JavaScript is the most used programming language, with a 78% usage rate among developers. 
 
 Stats from https://radixweb.com/blog/top-javascript-usage-statistics
