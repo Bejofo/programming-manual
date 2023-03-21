@@ -4,8 +4,8 @@ Lisp is a programming langgages invented in the 1960 by John McCarthy. Scheme is
 <img style="float: right; width:30%; height:50%; object-fit:contain;" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Lisp_logo.svg">
 
 # Nerd stuff
-The syntax of Lisp is heavlity inspired by lambda calculus. It is noticebly different from other
-programming languages and sometimes jokily refeered to as parentheses hell.
+The syntax of Lisp is heavily inspired by lambda calculus. It is noticebly different from other
+programming languages and sometimes jokingly called parentheses hell.
 
 An important concept of Lisp is the S-expression. All programs, datastrutres are writted as S-expressions.
 
@@ -17,7 +17,7 @@ For example `1+2` would be written as `(+ 1 2 )`
 
 # Examples
 
-```
+```lisp
 ;The following is written in Common Lisp
 
 (print (+ 1 2 3))
