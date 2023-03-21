@@ -1,10 +1,8 @@
 # Ruby
 Developed by Yukihiro “Matz” Matsumoto in the 1990s, Ruby’s first version officially released on December 25th, 1996. As an open-source object-oriented scripting language, everything in Ruby is an object except for blocks. Ruby was built in mind to smoothly connect human programmers to computers. Since Ruby is an interpreted scripting language, code can execute without the need to compile. 
 
-<figure style="float: right; width:30%; height:50%; object-fit:contain;">
+<img style="float: right; width:30%; height:50%; object-fit:contain;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/396px-Ruby_logo.svg.png?20101129171534"
-
-</figure>
 
 # Nerd Stuff
 Web development is a common use for Ruby. With the Ruby on Rails(aka RoR or Rails) framework which extended Ruby language, web development changed and became much more efficient. RoR uses code generators to create parts of web applications without needing to write code. The writing conventions define conventions shaping the frameworks of apps. Such qualities make it easier to construct large applications without requiring large developer teams.
