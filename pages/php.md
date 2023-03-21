@@ -18,7 +18,9 @@ Packagist is PHP’s main package repository as well as a package manager along 
 
 
 # Examples
+```
 <?php echo “Hello, World!”; ?>
+```
 
 
 # Stats
