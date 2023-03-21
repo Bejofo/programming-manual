@@ -3,7 +3,7 @@ Programming Language Manual for ENGCMP0600
 
 Located [here](https://apickledwalrus.github.io/programming-manual/)
 
-#Instructions
+# Instructions
 
 # FAQ
 
