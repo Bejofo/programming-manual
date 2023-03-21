@@ -29,7 +29,7 @@ You can compile programs by running
 gcc -o outputfilename your_code.c
 ```
 
-For more larger programs that have more complicated compliation process, make files are often used to automate it. 
+For larger programs that have more complicated compliation process, make files are often used to automate it. 
 
 Some popular libaries include.
 
