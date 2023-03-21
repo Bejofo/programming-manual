@@ -14,3 +14,8 @@ Due to the open-source nature of this project, individuals may add on new conten
 [PittFuego/elevator-pitch-generator](https://github.com/Pitt-Fuego/elevator-pitch-generator)
 
 Copyright Stephen J. Quigley (See [MIT License](MIT.txt))
+
+<!-- ZeroMD Credit -->
+[zerodevx/zero-md](https://github.com/zerodevx/zero-md)
+
+Copyright Jason Lee (See [ISC License](ISC.txt))
