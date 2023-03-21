@@ -29,6 +29,8 @@ You can compile programs by running
 gcc -o outputfilename your_code.c
 ```
 
+For more larger programs that have more complicated compliation process, make files are often used to automate it. 
+
 Some popular libaries include.
 
 Open SSL for secure networking
@@ -36,7 +38,7 @@ GSL Math and numerical function.
 SDL for graphics.
 
 # Examples
-```
+```c
 #include <stdio.h>
 
 // We can write comments by starting a with double slashes
