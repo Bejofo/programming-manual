@@ -6,57 +6,47 @@
 <title>Programming Manual</title>
 <link rel="stylesheet" href="./style.css">
 
-<header>
-    <h1><a href="#home">Programming Manual</a></h1>
+<div class="infopanel">
+    <header class="top-detail">
+        <h1><a href="#home">Programming Manual</a></h1>
 
-    <!-- TODO This list should be dynamically populated -->
-    <!-- TODO This should eventually become a dropdown menu instead -->
-    <div class="horizontal-list-group">
-        <a href="#example1" class="horizontal-list-group-item">
-            <p><b>Example Item</b></p>
-        </a>
-        <a href="#c" class="horizontal-list-group-item">
-            <p><b>C</b></p> <!-- 🌊 -->
-        </a>
-        <a href="#cobol" class="horizontal-list-group-item">
-            <p><b>COBOL</b></p> <!-- Build the business application of your dreams. -->
-        </a>
-        <a href="#htmlcss" class="horizontal-list-group-item">
-            <p> <b>HTML & CSS</b></p>
-        </a>
-        <a href="#javascript" class="horizontal-list-group-item">
-            <p><b>JavaScript</b></p>
-        </a>
-        <a href="#lisp" class="horizontal-list-group-item">
-            <p><b>Lisp</b></p> <!-- λ -->
-        </a>
-        <a href="#php" class="horizontal-list-group-item">
-            <p><b>PHP</b></p> 
-        </a>
-        <a href="#r" class="horizontal-list-group-item">
-            <p><b>R</b></p> <!-- Compute and display your favorite statistics. -->
-        </a>
-        <a href="#ruby" class="horizontal-list-group-item">
-            <p><b>Ruby</b></p> 
-        </a>
+        <!-- TODO This list should be dynamically populated -->
+        <!-- TODO This should eventually become a dropdown menu instead -->
+        <div class="horizontal-list-group">
+            <a href="#example1" class="horizontal-list-group-item">
+                <p><b>Example Item</b></p>
+            </a>
+            <a href="#c" class="horizontal-list-group-item">
+                <p><b>C</b></p> <!-- 🌊 -->
+            </a>
+            <a href="#cobol" class="horizontal-list-group-item">
+                <p><b>COBOL</b></p> <!-- Build the business application of your dreams. -->
+            </a>
+            <a href="#htmlcss" class="horizontal-list-group-item">
+                <p> <b>HTML & CSS</b></p>
+            </a>
+            <a href="#javascript" class="horizontal-list-group-item">
+                <p><b>JavaScript</b></p>
+            </a>
+            <a href="#lisp" class="horizontal-list-group-item">
+                <p><b>Lisp</b></p> <!-- λ -->
+            </a>
+            <a href="#php" class="horizontal-list-group-item">
+                <p><b>PHP</b></p>
+            </a>
+            <a href="#r" class="horizontal-list-group-item">
+                <p><b>R</b></p> <!-- Compute and display your favorite statistics. -->
+            </a>
+            <a href="#ruby" class="horizontal-list-group-item">
+                <p><b>Ruby</b></p>
+            </a>
+        </div>
+
+    </header>
+
+    <div class="bot-detail"style="margin-left: 10px; margin-right: 10px">
+        <zero-md id="markdown-display" class="hide" class="side"></zero-md>
     </div>
-
-</header>
-
-<div style="margin-left: 10px; margin-right: 10px">
-    <zero-md id="markdown-display" class="hide" class="side">
-        <template data-merge="append">
-            <style>
-                .markdown-body {
-                    height: 90vh;
-                    overflow-y: auto;
-                }
-            </style>
-        </template>
-        <script type="text/markdown">
-            This is the fall-back markdown that will **only show** when `src` is falsy.
-        </script>
-    </zero-md>
 </div>
 
 </html>
@@ -77,7 +67,7 @@
 
         // TODO This could be done better
         // render markdown display back in
-        setTimeout(async() => {
+        setTimeout(async () => {
             await markdown_display.render();
             markdown_display.classList.remove("hide");
         }, 420);
@@ -90,6 +80,6 @@
     updatePage();
 
     // call this function too when the page updates
-    window.onhashchange = function() { updatePage() };
+    window.onhashchange = function () { updatePage() };
 
 </script>

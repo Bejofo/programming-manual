@@ -2,6 +2,43 @@
  * setup
  */
 
+
+ .infopanel{
+    display: flex; 
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start; /*this will keep details at the top*/
+    /*justify-content:flex-end;*/ /*this will close details to the bottom*/
+}
+.infopanel>div{
+    width:100%;
+}
+
+.infopanel>header{
+    /* overflow:visible; */
+    height:15vh;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid var(--color-secondary);
+    margin-bottom: 10px;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+/* 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left; */
+}
+.infopanel>.bot-detail{
+    padding-top: 20vh;
+    overflow:auto;
+}
+
+
+
+
+
 :root {
     --color-primary: white;
     --color-primary-text: black;
@@ -10,7 +47,7 @@
 }
 
 html {
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     font-family: "Segoe UI", sans-serif;
 }
 
@@ -28,16 +65,6 @@ a {
  * navigation header
  */
 
-header {
-    height: 10vh;
-    border-bottom: 1px solid var(--color-secondary);
-    margin-bottom: 10px;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: left;
-}
 
 header > * {
     padding-left: 10px;
