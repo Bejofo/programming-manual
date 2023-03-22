@@ -24,11 +24,11 @@
     position: fixed;
     background-color: white;
     z-index: 999;
-/* 
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: left; */
+    justify-content: left;
 }
 .infopanel>.bot-detail{
     padding-top: 20vh;
